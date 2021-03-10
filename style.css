@@ -1,0 +1,42 @@
+.body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    margin-bottom: 80px;
+}
+
+.white-bg{
+    background-color: white;
+}
+.bg-1{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+ 
+}
+.bg-2{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    
+}
+.buy-now-btn{
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+}
+.bg-1 h6{
+    color: lightgrey;
+}
+
+.card{
+    border: none;
+    box-shadow: 4px 4px 6px lightgrey;
+    border-radius: 20px;
+}
+.card-footer{
+    border-top: none;
+    margin: auto;
+}
