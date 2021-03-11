@@ -15,14 +15,13 @@
 .bg-1{
     background-image: url(images/bg-2.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
- 
+    background-position: 0% 20%;
 }
 .bg-2{
     background-image: url(images/bg-1.png);
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 }
+
 .buy-now-btn{
     color: white;
     padding: 10px 20px;
@@ -36,12 +35,19 @@
 
 .card{
     border: none;
-    box-shadow: 4px 4px 6px lightgrey;
-    border-radius: 30px;
+}
+.card img{
+    height: 200px;
+    width: 250px;
+    padding-top: 20px;
+    padding-left: 60px;
 }
 .card-body{
     margin-left: 30px;
     margin-right: 30px;
+}
+.card-body p{
+    color: grey;
 }
 .card-footer{
     background-color: white;
@@ -73,13 +79,13 @@
 }
 .col-3 img{
     padding: 40px 40px;
-    box-shadow: 6px 5px 20px #888888;
+    box-shadow: 5px 5px 50px grey;
     border-radius: 10px 40px;
     border: none;
 }
 .col-4 img{
     padding: 40px 40px;
-    box-shadow: 6px 5px 20px #888888;
+    box-shadow: 5px 5px 50px grey;
     border-radius: 10px 40px;
     border: none;
 }
